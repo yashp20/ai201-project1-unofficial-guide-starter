@@ -1,0 +1,28 @@
+Source: Reddit
+URL: https://www.reddit.com/r/UIUC/comments/g41w9p/cs_357_silva/
+Title: CS 357 Silva
+Topic: UIUC CS 357 experience with Professor Silva, workload, quizzes, homework, MPs, and difficulty
+
+Original post summary:
+A student asked about taking CS 357 with Silva while planning an 18-credit-hour semester. The student said many Reddit posts described CS 357 as a very bad class, so they were worried about workload and difficulty.
+
+Student responses:
+
+One student said they did not think CS 357 was that hard. They said the course is not proof-based, so success mainly depends on doing the homework on time and completing the quizzes. They described Silva as okay and said they primarily learned from her notes.
+
+Another student currently taking CS 357 said the content was doable, especially for students who liked or understood linear algebra. They recommended reviewing linear algebra before starting the course because early material and an extra credit quiz depend on that knowledge.
+
+The same student described the weekly workload in detail. They said there are 11 weekly assignments. Coding questions can be hit or miss, but if a student wants to finish quickly, homework may take about 3 to 4 hours per week, possibly less with previous coding experience. They recommended allocating about 5 additional hours for the biweekly quizzes, depending on the student's calculus 3 and linear algebra background. They also said there are 5 machine problems due about once every 3 weeks, and each machine problem may take around 6 hours.
+
+This student said lectures are a bit over an hour twice per week, so the scheduled lecture load is not too large. However, they warned that the content can sometimes be dense. They suggested postponing CS 357 if the student is already taking several heavy courses. They also said Silva cares about students and that the TAs and CAs are extremely helpful.
+
+Another student said CS 357 is not that hard and Silva is fine, but many students underestimate the class. They said students who do not attend class and do not study seriously for tests may be surprised by low exam or quiz grades. Their advice was to go to class, do all homework problems multiple times, and make sure to understand them.
+
+The same student warned students to go slowly on tests because it is easy to rush, make small mistakes, and lose points. They said this was especially noticeable on CS 357 tests.
+
+When asked about weekly time, one student said they usually spent around 4 hours per week doing homework and studying. They said homework was due weekly, quizzes were usually biweekly, and quizzes were usually 9 to 10 problems similar to the homework plus 1 to 2 coding problems. Sometimes one coding problem was extra credit, but they said there was often not enough time to do both coding problems.
+
+Another student disagreed with the negative reputation of the course and said CS 357 was honestly not that bad. They described Silva as a pretty good professor who cares a lot about her students.
+
+Overall takeaway:
+Students describe CS 357 with Silva as manageable but easy to underestimate. The course depends heavily on linear algebra, calculus 3 knowledge, homework practice, and careful quiz preparation. Students recommend attending class, doing homework problems more than once, reviewing linear algebra before the semester, and avoiding CS 357 during an already overloaded schedule if possible.

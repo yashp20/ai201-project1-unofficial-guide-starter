@@ -10,6 +10,7 @@
 ## Domain
 
 <!-- What domain did you choose? Why is this knowledge valuable and hard to find through official channels? -->
+My project focuses on unofficial student knowledge about UIUC computer science courses and professors. This knowledge is valuable because students often want to know what classes are actually like before registering, including workload, difficulty, professor quality, exam style, grading, attendance expectations, and how much time assignments take. Official course catalogs list course topics and prerequisites, but they do not usually explain the real student experience, so students rely on Reddit threads, Rate My Professors reviews, and peer advice.
 
 ---
 
@@ -20,16 +21,17 @@
 
 | # | Source | Description | URL or location |
 |---|--------|-------------|-----------------|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
-| 4 | | | |
-| 5 | | | |
-| 6 | | | |
-| 7 | | | |
-| 8 | | | |
-| 9 | | | |
-| 10 | | | |
+| 1 | Reddit CS 225 what to expect thread | Student discussion about CS 225 preparation, workload, C++ knowledge, relation to CS 128, and expected weekly time commitment | documents/cs255_reviews.txt |
+| 2 | Reddit CS 128 faculty workload response | Faculty response about CS 128 workload, grade data, quiz concerns, and support resources like office hours and practice sessions | documents/cs128_reviews.txt |
+| 3 | Reddit CS 357 Silva experience thread | Student discussion about CS 357 with Silva, workload, quizzes, homework, MPs, linear algebra preparation, and difficulty | documents/cs375_reviews.txt |
+| 4 | Reddit CS 374 incoming sophomore thread | Student and faculty discussion about taking CS 374 early, math maturity, CS 173 background, workload, interview prep, and group work | documents/cs374_reviews.txt |
+| 5 | Rate My Professors Brad Solomon CS 225 reviews | Student reviews about Brad Solomon's CS 225 lectures, difficulty, homework, quizzes, extra credit, and feedback | documents/professor_1_reviews.txt |
+| 6 | Rate My Professors Emily Fox CS 374 reviews | Student reviews about Emily Fox's CS 374 teaching, homework difficulty, tests, lectures, Discord support, and course difficulty | documents/professor_2_reviews.txt |
+| 7 | Rate My Professors Michael Nowak CS 128 reviews | Student reviews about Michael Nowak's CS 128 workload, lessons, grading, quizzes, support structure, and difficulty | documents/professor_3_reviews.txt |
+| 8 | Reddit favorite UIUC professors thread | Student discussion about favorite UIUC professors, including Wade Fagen-Ulmschneider, Margaret Fleck, Jeff Erickson, Alvarez, and Zilles | documents/reddit_best_cs_professors.txt |
+| 9 | Reddit useful CS classes alumni thread | Alumni and student discussion about useful UIUC CS classes for jobs, including CS 425, CS 411, CS 440, and ECE 391 | documents/reddit_course_advice.txt |
+| 10 | Reddit CS major workload thread | Prospective student discussion about UIUC CS workload, prior programming experience, machine problems, office hours, LeetCode, ACM, and course assistant opportunities | documents/reddit_cs_workload.txt |
+
 
 ---
 

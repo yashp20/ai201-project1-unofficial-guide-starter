@@ -1,0 +1,20 @@
+Source: Reddit
+URL: https://www.reddit.com/r/UIUC/comments/176n8tq/to_cs_alumni_what_are_some_of_the_most_useful_cs/
+Title: To CS alumni, what are some of the most useful CS classes at UofI?
+Topic: UIUC CS alumni discussion about useful CS classes for jobs, upper-level courses, systems, databases, distributed systems, and AI
+
+Original post summary:
+A student asked CS alumni which UIUC CS classes, especially upper-level classes, were the most useful in their jobs.
+
+Student and alumni responses:
+
+One student or alumnus recommended CS 425 and CS 411 as definitely useful classes. They also mentioned CS 440, but said its usefulness depends on the job.
+
+Another alumnus said ECE 391 was especially useful. They said the class made them love systems programming from a kernel-building perspective.
+
+Another commenter said that even for students who do not go into systems programming, it is valuable to become comfortable with low-level programming and gain experience working close to the machine.
+
+Another student strongly recommended CS 425. When asked whether CS 425 was one of the harder CS classes they had taken, they said it is definitely on the harder side, especially if taken for 4 credits. They said the homeworks and machine problems require real understanding and time, but also teach a lot.
+
+Overall takeaway:
+Alumni and students in this thread describe CS 425, CS 411, CS 440, and ECE 391 as especially useful courses. CS 425 is repeatedly mentioned as valuable, though students warn that it can be difficult and time-consuming, especially for 4 credits. The thread also emphasizes the value of systems and low-level programming experience, even for students who do not plan to work directly in systems programming.

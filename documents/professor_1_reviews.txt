@@ -1,0 +1,19 @@
+Source: Rate My Professors
+URL: https://www.ratemyprofessors.com/professor/2873724
+Title: Brad Solomon CS 225 student ratings
+Topic: UIUC CS 225 professor reviews, lecture quality, homework, quizzes, extra credit, and difficulty
+
+Professor summary:
+Brad Solomon is listed as a professor in the Computer Science department at the University of Illinois Urbana-Champaign. His overall quality rating is 3.4 out of 5 based on 32 ratings. The page shows that 64% of students would take him again, and his level of difficulty is listed as 3.4 out of 5.
+
+Rating distribution summary:
+The rating distribution includes 13 awesome ratings, 6 great ratings, 3 good ratings, 4 OK ratings, and 7 awful ratings.
+
+Student review summaries:
+
+A CS 225 student from May 25, 2026 gave a quality rating of 5.0 and a difficulty rating of 3.0. The student said attendance was not mandatory and that they would take the professor again. They described Solomon as very good at explaining things and breaking topics down so they are easier to understand. They said he sometimes overexplains, but they found that helpful. The student also said he encourages questions and makes lectures useful and interesting. Tags included extra credit, amazing lectures, lots of homework, and helpful.
+
+A CS 225 student from January 5, 2026 gave a quality rating of 3.0 and a difficulty rating of 4.0. The student said attendance was not mandatory and that they would take the professor again. They described the class as overall solid and said the material was interesting. They said the extra credit coding assignments, labs, and machine problems were cool and helpful. However, they thought lectures could improve by focusing less on proofs and more on code examples. They said quizzes were the worst part of the course because the coding question on each quiz was worth a large portion of the grade.
+
+Overall takeaway:
+Student reviews describe Brad Solomon's CS 225 teaching as generally clear, engaging, and helpful, especially for explaining difficult material. Multiple students mention that attendance is not mandatory and that extra credit is available, though one review says extra credit decreased in a later semester. Common positives include strong explanations, interesting lectures, useful assignments, and responsiveness. Common concerns include quizzes, exam coding questions, heavy homework, and lectures sometimes focusing too much on proofs or running out of time.

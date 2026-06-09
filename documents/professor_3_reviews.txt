@@ -1,0 +1,19 @@
+Source: Rate My Professors
+URL: https://www.ratemyprofessors.com/professor/2685082
+Title: Michael Nowak CS 128 student ratings
+Topic: UIUC CS 128 professor reviews, workload, lessons, grading, quizzes, support, and difficulty
+
+Professor summary:
+Michael Nowak is listed as a professor in the Computer Science department at the University of Illinois Urbana-Champaign. His overall quality rating is listed as 1.8 out of 5 based on 185 ratings. The page shows that 18% of students would take him again, and his level of difficulty is listed as 4 out of 5.
+
+Rating distribution summary:
+The rating distribution includes 17 awesome ratings, 12 great ratings, 14 good ratings, 18 OK ratings, and 124 awful ratings. Most of the visible reviews for CS 128 are negative, although one visible review describes the course as easy after an additional quiz drop policy.
+
+Student review summaries:
+
+A CS 128 student from May 6, 2026 gave a quality rating of 1.0 and a difficulty rating of 4.0. The student said attendance was mandatory and the class was online. They described dreading the class daily. They said the lecture style changed three times during the course, and only the last interactive walkthrough style was moderately helpful. They described the documentation as wordy and not useful, and said lesson activities were often convoluted. The student also felt that there was an illusion of extra help, but that it was not enough to save struggling students.
+
+A CS 128 student from May 5, 2026 gave a quality rating of 5.0 and a difficulty rating of 1.0. The student said attendance was mandatory and the class was online. They described the course as easy after the instructor gave an additional drop. They said students could drop their last two quizzes and finish the course before the last two weeks of the semester.
+
+Overall takeaway:
+Student reviews describe Michael Nowak's CS 128 course as difficult, workload-heavy, and often frustrating. Common complaints include long lessons, lecture-heavy structure, wordy documentation, confusing lesson activities, busy work, and quizzes or tests that feel harsh because of limited or no partial credit. However, one visible review says the course became easy after an additional quiz drop policy. Overall, the visible reviews suggest that students should expect a high workload, structured online lessons, mandatory attendance in some offerings, and a need for significant independent effort.

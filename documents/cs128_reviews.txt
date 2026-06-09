@@ -1,0 +1,25 @@
+Source: Reddit
+URL: reddit.com/r/UIUC/comments/1rmxiwa/cs_128/
+Title: CS 128 workload and course support discussion
+Topic: UIUC CS 128 workload, grading data, assessments, support resources, and student expectations
+
+Original context:
+A CS 128 faculty member responded to student concerns about the course workload, quiz difficulty, and support structure. The response explains how the course team uses data to calibrate workload, assessments, and student support.
+
+Faculty response summary:
+The faculty member said that CS 128 is calibrated using data from many parts of the course. The course team tracks submissions, time spent on machine problems, performance across assessments, office hour attendance, Even More Practice attendance, completion rates on practice problems, and other indicators.
+
+According to the faculty response, the previous semester had a median overall score of 94% and an average score of 91%. The current semester's recent grade report showed a median of 97.52% and a mean of 92.65%. The response says the median is emphasized because it better represents the typical student experience, while the mean can be pulled down by a smaller number of lower-scoring outliers.
+
+The faculty member said that reviews from the previous semester showed that most CS majors, including CS, CS+X, Math & CS, and Stat & CS students, spent between 6 and 11 hours per week on CS 128. The response compares this with the general expectation for a 3-credit-hour engineering course, which is about 9 to 12 hours per week including lectures and lessons. Based on that comparison, the faculty member argues that the workload in CS 128 is consistent with typical engineering course expectations.
+
+The response also addressed concerns about Quiz 3B. The faculty member said the quiz window was still open at the time and that the course team was monitoring performance data. They said the team would make adjustments if necessary after the quiz window closed.
+
+The faculty member stated that CS 128 assessments and machine problems are aligned with what peer institutions expect at this level. They said many questions come from typical introductory curricula and that several machine problems are peer reviewed and completed at peer institutions.
+
+The response acknowledges that the transition from CS 124 to CS 128 can feel steep for students whose only prior experience is CS 124. The faculty member said this is why the course includes lesson activities, machine problems that build on one another, office hours, Even More Practice sessions, and quiz reviews.
+
+The faculty member emphasized that students need to use the available support resources. They said attendance at Even More Practice is very limited, office hour attendance is exceptionally light, and most students are not completing additional practice problems in the lesson activities.
+
+Overall takeaway:
+This source presents the faculty perspective that CS 128 is data-calibrated, that most students are performing well, and that the workload is within normal expectations for a 3-credit-hour engineering course. It also says that students who struggle should use quiz reviews, office hours, Even More Practice sessions, and additional practice problems more actively.

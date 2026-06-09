@@ -1,0 +1,24 @@
+Source: Reddit
+URL: https://www.reddit.com/r/UIUC/comments/uhsawh/cs225_for_fall_what_to_expect/
+Title: CS225 for Fall, what to expect
+Topic: UIUC CS 225 preparation, workload, C++ knowledge, and relation to CS 128
+
+Original post summary:
+A student who did well in CS 128 asked what to expect from CS 225 in the fall. They said CS 128 already covered simple data structures like binary trees and linked lists in C++. They asked whether CS 225 is mainly a continuation of CS 128, whether CS 128 teaches enough C++ for CS 225, and how they could get a head start during the summer.
+
+Student responses:
+
+One student recommended preparing by practicing LeetCode problems for each data structure, starting with easier topics like arrays and moving to harder topics like trees and graphs. They said the problems may be difficult at first, but this practice can help with both technical interviews and CS 225. They also said the programming language does not matter too much, but students should practice C++ if they do not have a strong understanding of the call stack, heap, pointers, and references.
+
+The same student described CS 225 as a class that gives students most of the function headers they need, extensive documentation, and test cases. In their opinion, CS 225 is fairly easy if the student understands data structures and can write C++.
+
+Another student mentioned that the course may be removing the introductory C++ portion, which could make the class harder for students who are not already comfortable with C++.
+
+Another student said not to stress about CS 225 if the student did well in CS 128. They said CS 128 already covers many of the relevant data structures and algorithms, including linked lists, trees, and graphs. They described CS 225 as less work than CS 128 because CS 225 has a machine problem about every two weeks instead of every week.
+
+A student asked whether lecture recordings are posted online for CS 225 because rewatching lecture videos helps them. Other students shared links to past CS 225 lecture recordings and lecture materials.
+
+Another student said CS 225 is not hard, but students should expect to put in about 20 hours per week to do well.
+
+Overall takeaway:
+Students describe CS 225 as manageable for someone who did well in CS 128, especially if they already understand basic data structures and C++. The most common advice is to practice data structures, review C++ topics like pointers and references, start machine problems early, and expect a meaningful weekly time commitment.

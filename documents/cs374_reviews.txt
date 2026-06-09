@@ -1,0 +1,21 @@
+Source: Reddit
+URL: https://www.reddit.com/r/UIUC/comments/1kwxfy7/taking_cs_374_as_an_incoming_sophomore/
+Title: Taking CS 374 as an incoming sophomore?
+Topic: UIUC CS 374 timing, prerequisites, math maturity, workload, interview prep, and group work
+
+Original post summary:
+A student asked whether it makes sense to take CS 374 as an incoming sophomore. They originally assumed the course progression would be CS 225, CS 233, CS 341, and then CS 374. However, they heard that some students take CS 225 in the fall and CS 374 in the spring. Since the student was taking CS 225 over the summer, they were considering taking CS 374 in the fall. They asked whether taking CS 374 early would be beneficial for resume-related coursework or interview preparation, and whether it would be better to take the class with people they know well.
+
+Student and faculty responses:
+
+A CS faculty member said that the most important factor is the student's math and CS theory background. CS 374 depends heavily on mathematical maturity. If a student took CS 173 or a similar proof-based discrete math course from a strong CS program and did well, they would likely be okay. However, if the student struggled with proofs or had a weak transfer equivalent of CS 173, moving quickly into CS 374 would be a bad idea.
+
+The faculty member also said that doing well in CS 225 is a good predictor for CS 233, but not as strong a predictor for CS 374. CS 225 includes both programming and some theory, but it does not test math and proof skills as heavily as CS 374. The faculty member suggested reviewing the CS 173 website if the student has external credit for CS 173 to see whether the material feels familiar.
+
+Several students said that taking CS 374 with friends or a strong group is very helpful. One student mentioned that in the A section, homework is done in groups, so knowing reliable people can make the class much more manageable and enjoyable.
+
+One student said CS 374 can help improve problem-solving skills, which may help with interviews, especially for dynamic programming or graph questions. However, they also said students can prepare for many interviews without taking CS 374 by self-studying basic dynamic programming and algorithms.
+
+
+Overall takeaway:
+Students and faculty describe CS 374 as a challenging, theory-heavy course that depends more on mathematical maturity, proofs, recursion, and CS 173 background than on programming experience alone. Taking CS 374 early can be reasonable for students with strong CS 173 and CS 225 understanding, but it may be a bad idea for students who are weak in proofs or discrete math. Many responses emphasize that a strong homework group is extremely helpful. CS 374 can help with interview preparation for algorithms, dynamic programming, and graph problems, but it can also be a major time sink, especially during a busy semester.

@@ -1,0 +1,19 @@
+Source: Rate My Professors
+URL: https://www.ratemyprofessors.com/professor/3171576
+Title: Emily Fox CS 374 student ratings
+Topic: UIUC CS 374 professor reviews, course difficulty, homework, tests, lectures, and student support
+
+Professor summary:
+Emily Fox is listed as a professor in the Computer Science department at the University of Illinois Urbana-Champaign. Her overall quality rating is listed as 5 out of 5 based on the available ratings. The page shows that 100% of students would take her again, and her level of difficulty is listed as 3 out of 5.
+
+Rating distribution summary:
+The rating distribution shows positive ratings, with reviews describing the professor as helpful, reasonable, and effective at teaching a difficult course.
+
+Student review summaries:
+
+A CS 374 student from June 3, 2026 gave a quality rating of 5.0 and a difficulty rating of 5.0. The student said attendance was not mandatory and that they would take the professor again. They described CS 374 as a really hard class but also extremely enjoyable. The student thanked Professor Fox for the excellent way she taught the material. They said the homework is quite difficult and that students definitely need a partner, as the course recommends. They also said the tests are quite difficult and require knowing the material very well, so students should practice a lot. Tags included lots of homework, lecture heavy, test heavy, and helpful.
+
+A CS 374 student from May 30, 2026 gave a quality rating of 5.0 and a difficulty rating of 3.0. The student said attendance was not mandatory and that they would take the professor again. They described Professor Fox as chill, respectable, reasonable, and helpful. The student said that although she is new, she delivers good quality lectures. They also said she interacts with students on Discord, which helps create a warm class atmosphere. The student described CS 374 as a notoriously hard class, but said Professor Fox makes it feel like students are tackling the course itself rather than struggling against the professor.
+
+Overall takeaway:
+Student reviews describe Emily Fox as a strong and supportive CS 374 professor. CS 374 is described as difficult, homework-heavy, lecture-heavy, and test-heavy, but students say Fox teaches the material well and creates a helpful learning environment. Students recommend practicing heavily, knowing the material well for tests, and working with a partner on homework.
