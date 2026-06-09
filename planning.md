@@ -10,7 +10,6 @@
 ## Domain
 
 <!-- What domain did you choose? Why is this knowledge valuable and hard to find through official channels? -->
-My project focuses on unofficial student knowledge about UIUC computer science courses and professors. This knowledge is valuable because students often want to know what classes are actually like before registering, including workload, difficulty, professor quality, exam style, grading, attendance expectations, and how much time assignments take. Official course catalogs list course topics and prerequisites, but they do not usually explain the real student experience, so students rely on Reddit threads, Rate My Professors reviews, and peer advice.
 
 ---
 
@@ -32,7 +31,6 @@ My project focuses on unofficial student knowledge about UIUC computer science c
 | 9 | Reddit useful CS classes alumni thread | Alumni and student discussion about useful UIUC CS classes for jobs, including CS 425, CS 411, CS 440, and ECE 391 | documents/reddit_course_advice.txt |
 | 10 | Reddit CS major workload thread | Prospective student discussion about UIUC CS workload, prior programming experience, machine problems, office hours, LeetCode, ACM, and course assistant opportunities | documents/reddit_cs_workload.txt |
 
-
 ---
 
 ## Chunking Strategy
@@ -42,11 +40,19 @@ My project focuses on unofficial student knowledge about UIUC computer science c
      numbers fit the structure of your documents.
      A review-heavy corpus warrants different chunking than a long FAQ. -->
 
-**Chunk size:**
+**Chunk size:**  
+700 characters
 
-**Overlap:**
+**Overlap:**  
+150 characters
 
-**Reasoning:**
+**Reasoning:**  
+My documents are mostly Reddit discussions and Rate My Professors review summaries. These documents are shorter and more opinion-based than long textbooks or official manuals, so the chunks should not be too large. A 700-character chunk is large enough to keep a complete student opinion together, including context about the course, professor, workload, grading, or exams. At the same time, it is small enough that retrieval can still find specific information, such as comments about CS 374 difficulty, CS 225 workload, or CS 128 support resources.
+
+The 150-character overlap helps preserve context when an important idea appears near the edge of a chunk. For example, a student might start by describing a course workload and then mention quizzes or exams at the end of the paragraph. Overlap makes it more likely that the full idea is still available in at least one retrieved chunk.
+
+If chunks are too small, the system might retrieve fragments that do not make sense by themselves. If chunks are too large, one chunk may mix unrelated topics like workload, professor personality, exams, and registration advice, which would make retrieval less precise.
+
 
 ---
 
@@ -58,11 +64,19 @@ My project focuses on unofficial student knowledge about UIUC computer science c
      would you weigh in choosing a different embedding model — context length, multilingual
      support, accuracy on domain-specific text, latency? -->
 
-**Embedding model:**
 
-**Top-k:**
+**Embedding model:**  
+I will use `all-MiniLM-L6-v2` from `sentence-transformers`.
 
-**Production tradeoff reflection:**
+**Top-k:**  
+I will retrieve the top 5 chunks for each query.
+
+**Production tradeoff reflection:**  
+`all-MiniLM-L6-v2` is a good choice for this project because it runs locally, is free, and is fast enough for a small document collection. It should work well for semantic search over student review text because it can match similar meanings even when the query does not use the exact same words as the document.
+
+For a production system, I would compare embedding models based on accuracy, latency, cost, context length, and how well they handle informal student language. Since Reddit and Rate My Professors comments often include slang, abbreviations, and course numbers, I would want an embedding model that performs well on short, noisy, opinion-based text. I would also consider multilingual support and whether the embedding model should run locally or through an API.
+
+Retrieving too few chunks could miss the answer, especially if different students mention different parts of a course experience. Retrieving too many chunks could confuse the LLM by adding loosely related information. Top-k of 5 is a reasonable starting point because it gives enough context without overwhelming the generation step.
 
 ---
 
@@ -75,11 +89,12 @@ My project focuses on unofficial student knowledge about UIUC computer science c
 
 | # | Question | Expected answer |
 |---|----------|-----------------|
-| 1 | | |
-| 2 | | |
-| 3 | | |
-| 4 | | |
-| 5 | | |
+| 1 | What do students say about CS 225 workload and preparation? | The system should mention that students recommend understanding data structures, practicing C++, starting MPs early, and expecting a meaningful weekly time commitment. |
+| 2 | What do students say about CS 128 workload and support resources? | The system should mention CS 128 workload, grade data, weekly time expectations, office hours, Even More Practice, quiz reviews, and practice problems. It should also mention that some student reviews describe the course as frustrating or busy-work heavy. |
+| 3 | What do students say about CS 374 difficulty and when to take it? | The system should mention that CS 374 is theory-heavy, depends on CS 173/proof maturity, can be a major time sink, and is easier with a strong group. |
+| 4 | Which professors are described as helpful or good at teaching? | The system should mention professors such as Brad Solomon, Emily Fox, Wade Fagen-Ulmschneider, Margaret Fleck, Jeff Erickson, Alvarez, or Zilles only if those names appear in the retrieved documents. |
+| 5 | What useful CS classes do students or alumni recommend for jobs? | The system should mention CS 425, CS 411, CS 440, and ECE 391 if the retrieval finds the alumni thread, and should note that CS 425 is described as useful but difficult/time-consuming. |
+
 
 ---
 
@@ -89,9 +104,15 @@ My project focuses on unofficial student knowledge about UIUC computer science c
      Consider: noisy or inconsistent documents, missing source attribution, off-topic
      retrieval, chunks that split key information across boundaries. -->
 
-1.
 
-2.
+1. The documents are informal and noisy because they come from Reddit and Rate My Professors. Student comments may include slang, abbreviations, emotional opinions, missing context, or conflicting perspectives. This could make retrieval harder because the system may match the course number but miss the specific topic of the question.
+
+2. Retrieval may return chunks about the right class but the wrong issue. For example, a query about CS 225 workload could retrieve a chunk about Brad Solomon’s teaching style because both mention CS 225. I will debug this by printing retrieved chunks and checking whether the returned text actually answers the question.
+
+3. The LLM may try to answer from general knowledge instead of only using the retrieved documents. To prevent this, the generation prompt will explicitly say to answer only from retrieved chunks, cite source files, and refuse when the documents do not contain enough information.
+
+4. Some information may be split across chunk boundaries. For example, one paragraph may mention a professor name at the start and workload details near the end. The 150-character overlap should reduce this problem, but I will inspect sample chunks to make sure they are readable and self-contained.
+
 
 ---
 
@@ -102,6 +123,16 @@ My project focuses on unofficial student knowledge about UIUC computer science c
      Label each stage with the tool or library you're using.
      You can use ASCII art, a Mermaid diagram, or embed a sketch as an image.
      You'll use this diagram as context when prompting AI tools to implement each stage. -->
+
+     ```mermaid
+flowchart TD
+    A[Raw .txt files in documents folder] --> B[Document Ingestion and Cleaning using Python]
+    B --> C[Chunking with 700 character chunks and 150 character overlap]
+    C --> D[Embeddings using sentence-transformers all-MiniLM-L6-v2]
+    D --> E[ChromaDB Vector Store with source metadata]
+    E --> F[Semantic Retrieval of top 5 chunks]
+    F --> G[Groq LLM grounded response generation]
+    G --> H[Answer with source citations]
 
 ---
 
