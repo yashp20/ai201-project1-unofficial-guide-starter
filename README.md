@@ -271,7 +271,6 @@ One way my implementation diverged from the original plan was that chunking need
 
 I used ChatGPT to help implement the ingestion and chunking pipeline. I gave it my `planning.md` chunking strategy, document folder name, and requirement to print five sample chunks. It produced an initial `ingest.py` script. I reviewed the output and noticed some chunks started in the middle of words, so I changed the implementation to use cleaner paragraph and sentence-style boundaries.
 
-I used ChatGPT to help implement the embedding and retrieval pipeline. I gave it my retrieval approach using `all-MiniLM-L6-v2`, ChromaDB, top-k of 5, and source metadata requirements. It produced `retrieval.py`. I then tested it with my evaluation questions and found that some broad queries retrieved the wrong course document, so I identified this as a retrieval limitation.
 
 I used ChatGPT to help implement the generation and Gradio interface. I gave it my grounding requirement: answer only from retrieved context, cite source filenames, and refuse when the documents do not contain enough information. It produced `query.py` and `app.py`. I checked that source attribution was appended programmatically through retrieved metadata instead of relying only on the LLM.
 
